@@ -1,0 +1,11 @@
+@AIAssistantAPI_HostAddress = http://localhost:5176
+
+### Send a chat message to the ChatController
+POST {{AIAssistantAPI_HostAddress}}/chat/process-message
+Content-Type: application/json
+
+{
+  "Message": "Hello, this is a test message."
+}
+
+###
